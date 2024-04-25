@@ -1,0 +1,15 @@
+/* 타겟 { 어떻게 꾸며줄까 } */
+h1{
+    background-color: green; /*배경색*/
+    color:white; /*글씨색*/
+}
+
+h2{
+    background-color: black;
+    color: red;
+}
+
+h3{
+    background-color: navy;
+    color: white;
+}
