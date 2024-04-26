@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+  gap: 10px;
+  width: 1000px;
+  height: 1000px;
+}
+.box {
+  /* 100%는 자기 부모의 비율 */
+  /* 1000px */
+  width: 100px;
+  /* 1000px */
+  height: 100px;
+}
+
+.flat_flesh {
+  background-color: #fad390;
+}
+.squash_blossom {
+  background-color: #f6b93b;
+}
+
+.iceland_poppy {
+  background-color: #fa983a;
+}
+.carrot_orange {
+  background-color: #e58e26;
+}

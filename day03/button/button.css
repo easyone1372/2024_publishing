@@ -1,0 +1,22 @@
+.big_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  width: 500px;
+  height: 150px;
+  gap: 5px;
+  cursor: pointer;
+}
+i {
+  font-size: 30px;
+}
+.letter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feight {
+  font-weight: 600;
+}

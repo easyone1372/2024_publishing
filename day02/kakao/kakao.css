@@ -1,37 +1,29 @@
 .normal{
     background-color: black;
     color: white;
-    text-align: center;
-    font-weight: 800;
-    width: 400px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 8px;
 }
 
 .kakao{
     background-color: #f7e111;
-    text-align: center;
-    font-weight: 800;
-    width: 400px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 8px;
-    margin-top: 15px;
+    color: black;
 }
 
 .apple{
     background-color: white;
     color: black;
-    font-weight: 800;
+    /* 두께 스타일 색깔 */
+    border: 1px solid #dbdbdb;
+}
+
+.button{
     text-align: center;
+    font-weight: 800;
     width: 400px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 15px;
     border-radius: 8px;
-    /* 두께 스타일 색깔 */
-    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .coupon{
