@@ -1,5 +1,6 @@
 .found {
-  background-color: blue;
+  background-color: #4a76ba;
+  gap: 10px;
 }
 .foundbox {
   display: flex;
@@ -8,10 +9,18 @@
   border: 1px solid gray;
   border-radius: 10px;
   background-color: white;
+  cursor: pointer;
 }
 
 .char {
   font-weight: 700;
+  color: black;
+}
+.red {
+  color: #fe696a;
+}
+.blue {
+  color: #4476fe;
 }
 
 .smallbox {
@@ -31,12 +40,14 @@
   padding: 5px;
   gap: 5px;
   cursor: pointer;
+  color: #4a76ba;
 }
 .box {
-  width: 400px;
+  width: fit-content;
   height: 80px;
   display: flex;
   border: 1px solid lightgray;
   justify-content: space-around;
   align-items: center;
+  padding: 15px;
 }
