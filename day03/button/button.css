@@ -2,21 +2,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   border: 1px solid lightgray;
+  border-radius: 10px;
   width: 500px;
   height: 150px;
-  gap: 5px;
-  cursor: pointer;
 }
-i {
+.content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon {
   font-size: 30px;
 }
-.letter {
+.text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.feight {
-  font-weight: 600;
+.weight {
+  font-weight: 700;
 }

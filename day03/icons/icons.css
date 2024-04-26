@@ -1,0 +1,42 @@
+.found {
+  background-color: blue;
+}
+.foundbox {
+  display: flex;
+  padding: 10px;
+  gap: 8px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.char {
+  font-weight: 700;
+}
+
+.smallbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.smallerbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 5px;
+  gap: 5px;
+  cursor: pointer;
+}
+.box {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  border: 1px solid lightgray;
+  justify-content: space-around;
+  align-items: center;
+}
