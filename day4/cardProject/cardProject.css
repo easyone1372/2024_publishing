@@ -9,7 +9,6 @@
 .card {
   width: 280px;
   height: 380px;
-  border: 2px solid lightgray;
   border-radius: 20px;
 
   display: flex;
@@ -17,6 +16,9 @@
   font-family: "Freesentation-9Black";
   font-weight: 900;
   font-style: normal;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .card_img {
