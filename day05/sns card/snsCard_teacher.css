@@ -1,0 +1,80 @@
+.card {
+  width: 350px;
+  height: 600px;
+  border-radius: 30px;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  padding: 50px 25px 50px 25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card:hover {
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageBox {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.imageBox > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  /* object-position: x y 이용해서 사진 위치 조절하기. center: 가운데 */
+  transition: all 0.5s;
+}
+.imageBox > img:hover {
+  transform: scale(1.2);
+}
+
+.introduce {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+
+.sns-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.button {
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+}
+
+.button:hover {
+  padding: 25px;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.sns-logo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logoBox {
+  font-size: 20px;
+}
+
+.logoBox > i:hover {
+  color: blue;
+  font-size: 30px;
+}
