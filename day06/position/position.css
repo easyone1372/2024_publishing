@@ -1,0 +1,49 @@
+body {
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.colorBox {
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+}
+
+.aquamarine {
+  background-color: aquamarine;
+}
+
+.aqua {
+  background-color: aqua;
+  z-index: 2;
+}
+
+.red {
+  background-color: red;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+.title1 {
+  /* relative: 자기 부모 기준으로 움직인다*/
+  /* 반드시 top: 0, left:0이 들어가야함 + bottom:0, right: 0 */
+
+  /* absolute: 웹 브라우저 기준으로 움직임. 단, 모든 부모가 static이어야함 */
+  /* 모든 부모가 static이 아니면 자기 부모 기준으로 변화함 */
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
