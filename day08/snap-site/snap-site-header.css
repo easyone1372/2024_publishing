@@ -1,0 +1,45 @@
+header {
+  width: 100vw;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  gap: 10px;
+  color: white;
+}
+
+.header__logobox {
+  width: 45px;
+  height: 45px;
+}
+
+.header__logobox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.header__sitebox {
+  display: flex;
+  gap: 10px;
+}
+
+.header__sitebox__pages {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}

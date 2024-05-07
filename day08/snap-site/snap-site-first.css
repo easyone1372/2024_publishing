@@ -1,0 +1,37 @@
+.first {
+  position: relative;
+}
+.first > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.first > .first_contents {
+  position: absolute;
+  top: 550px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  color: white;
+}
+
+.first__contents__subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.first__contents__title {
+  display: flex;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.first__contents__moreview {
+  padding: 10px 80px;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: fit-content;
+}
