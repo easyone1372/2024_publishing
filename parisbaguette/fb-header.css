@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "KimjungchulGothic-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+
+header {
+  width: 100vw;
+  height: 80px;
+  z-index: 1;
+  position: fixed;
+  background-color: #023586;
+}
+
+nav {
+  font-family: "KimjungchulGothic-Bold";
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.pb__menubox {
+  display: flex;
+  gap: 20px;
+  font-family: "nanumgothic";
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.pb__logobox {
+  font-size: 24px;
+}
